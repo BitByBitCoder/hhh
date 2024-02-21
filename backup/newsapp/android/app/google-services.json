@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10410346190",
+    "project_id": "newsmoderator-fe1a9",
+    "storage_bucket": "newsmoderator-fe1a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10410346190:android:693e23cb54ff65c5fe329f",
+        "android_client_info": {
+          "package_name": "com.example.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeGUkQhPJPpd1xkJPVksOAWhQP4_KAA1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
