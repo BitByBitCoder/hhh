@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:newsapp/features/NewPost/newPostScreen.dart';
-import 'package:newsapp/features/auth/repo/authRepository.dart';
+
 import 'package:newsapp/features/auth/repo/currentUserrepository.dart';
 import 'package:newsapp/features/home/screen/homescreen.dart';
 import 'package:newsapp/features/profile/profileScreen.dart';
@@ -21,9 +21,9 @@ class _NavigatorBarState extends State<NavigatorBar> {
   void getCurrentUserUid() async {
     final FirebaseAuth auth = FirebaseAuth.instance;
     final User? user = auth.currentUser;
-
+    var a = 1;
     userU = user;
-    print(userU);
+    print('sdfsadfsd');
   }
 
   @override
